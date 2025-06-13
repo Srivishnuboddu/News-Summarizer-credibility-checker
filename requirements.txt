@@ -5,3 +5,6 @@ chromadb
 newspaper3k
 streamlit
 tiktoken
+
+transformers
+torch  # or 'tensorflow' depending on which backend your model uses

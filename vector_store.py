@@ -5,7 +5,8 @@ from dotenv import load_dotenv
 
 load_dotenv()  # Load from .env
 
-embedding = OpenAIEmbeddings(openai_api_key="OPENAI_API_KEY")
+import os
+embedding = OpenAIEmbeddings(openai_api_key=os.getenv("OPENAI_API_KEY"))
 db = Chroma(embedding_function=embedding, persist_directory="./chroma_db")
 
 def add_to_db(title, text):
