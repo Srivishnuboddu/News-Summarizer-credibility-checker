@@ -1,0 +1,7 @@
+
+openai
+langchain
+chromadb
+newspaper3k
+streamlit
+tiktoken
