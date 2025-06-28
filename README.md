@@ -7,6 +7,9 @@ This project is a web application built with **Streamlit** that allows users to:
 - ✅ Check the **credibility/tone** of the news article
 - 📚 Show **similar articles** using LangChain & Chroma vector store
 
+
+PROJECT DEMO VIDEO : https://youtu.be/vNrRUQRaVF8?si=SIIaTum3s_0DhQMY
+
 ---
 
 ## 🚀 Features
