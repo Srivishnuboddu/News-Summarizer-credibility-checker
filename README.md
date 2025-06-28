@@ -8,7 +8,7 @@ This project is a web application built with **Streamlit** that allows users to:
 - 📚 Show **similar articles** using LangChain & Chroma vector store
 
 
-PROJECT DEMO VIDEO : https://youtu.be/vNrRUQRaVF8?si=SIIaTum3s_0DhQMY
+PROJECT DEMO VIDEO : https://youtu.be/az0_MDwbZN8?si=Gq4LPVEhj5eoDjXC
 
 ---
 
