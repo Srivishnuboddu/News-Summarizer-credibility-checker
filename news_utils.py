@@ -1,11 +1,14 @@
-
-from newspaper import Article
+import requests
+from readability import Document
+from bs4 import BeautifulSoup
 
 def extract_article_text(url):
-    try:
-        article = Article(url)
-        article.download()
-        article.parse()
-        return article.title, article.text
-    except Exception as e:
-        return None, f"Failed to extract: {str(e)}"
+    response = requests.get(url)
+    doc = Document(response.text)
+    title = doc.title()
+    summary_html = doc.summary()
+
+    soup = BeautifulSoup(summary_html, 'html.parser')
+    text = soup.get_text()
+
+    return title, text
