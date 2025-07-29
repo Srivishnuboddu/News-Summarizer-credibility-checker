@@ -1,10 +1,12 @@
-
 openai
 langchain
 chromadb
 newspaper3k
 streamlit
 tiktoken
-
 transformers
 torch  # or 'tensorflow' depending on which backend your model uses
+readability-lxml
+lxml
+beautifulsoup4
+
