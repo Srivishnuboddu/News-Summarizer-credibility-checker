@@ -9,4 +9,7 @@ torch  # or 'tensorflow' depending on which backend your model uses
 readability-lxml
 lxml
 beautifulsoup4
-
+huggingface_hub
+sentence-transformers
+numpy
+pandas
